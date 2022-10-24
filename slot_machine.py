@@ -107,4 +107,4 @@ player = Jogo(nome, creditos)
 print("\n\t" + player.nome + " tem " + str(player.creditos) + "!!!\n")
 
 
-print(player.jogar())
+player.jogar()
